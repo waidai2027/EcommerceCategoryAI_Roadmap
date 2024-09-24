@@ -1,0 +1,20 @@
+2024-09-24 15:47:47,962 - INFO - Script started.
+2024-09-24 15:47:47,963 - INFO - Loading data...
+2024-09-24 15:47:52,044 - INFO - Starting model training...
+2024-09-24 15:47:52,136 - INFO - Model training completed.
+2024-09-24 15:47:52,136 - INFO - Starting model evaluation...
+2024-09-24 15:47:52,150 - INFO - Accuracy: 0.95
+2024-09-24 15:47:52,326 - INFO - Classification report:
+                        precision    recall  f1-score   support
+
+                 Books       0.97      0.91      0.94      2378
+Clothing & Accessories       0.95      0.99      0.97      1750
+           Electronics       0.94      0.94      0.94      2082
+             Household       0.95      0.96      0.95      3875
+
+              accuracy                           0.95     10085
+             macro avg       0.95      0.95      0.95     10085
+          weighted avg       0.95      0.95      0.95     10085
+
+2024-09-24 15:47:52,332 - INFO - Model saved as 'model.pkl'.
+2024-09-24 15:47:52,332 - INFO - Script ended.
